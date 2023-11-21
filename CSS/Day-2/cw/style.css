@@ -1,0 +1,173 @@
+/* 1> make the entire font family of the page to sansserif by using universal selector */
+/* 2>make the color of the h3 to purple by using the h3 tag */
+/* 3>make the color of the h1 to rgb(185, 43, 39); or the logo of quora using the color tag */
+/* 4>make the background color of the login button to white */
+/* 5> make the background color of the signup button rgb(185, 43, 39); and make th color to white */
+/* 6>make the background color of the upvote button to green make the text color to alice blue*/
+/* 7> make the ancchor tag inside the pargaraph element to purplr and also give them a background collor of yellow*/
+/* 8>give the anchor tags which is present inside the paragraph give them an class of post and apply the above in qna 7 */
+/* 9> Using the descendent selecter make the color of links inside the nav tag to hotpink */
+/* 10> make the immedeate heading h3 after the paragraph tag underline using the sibling combinator*/
+/* 11> make the answer button inside just after the upvote button to cornflower blue by using the sibling selector and the text to just dark blue */
+/* 12> make the input selector back ground color darksalmon just after the div tag using the child combinator */
+/* 13> on the basis of the attribute selecter when we do type the password it should come in color red and when we do type the text it should come in color green */
+/* 14> if the input element contains the type attribute make its color to ghostwhite */
+/* 15> make all the buttons background color of black and foreground color to white using the hover selector */
+/* 16> when we do hover over he h3  elemt the underline under the h3 element should vanish do it using the hover tag */
+/* 17> when clicking the upvote and the answer tag in the html the background color should convert to hotpink use the active tag button:active */
+/* 18> when clicking the names it should convert to bold and the color of green  */
+/* 19> when you have selected any radio button or the radio button is checked immedeatly change the color of the label to red  */
+/*20> make the 2nd div to background color burylwood using the element nth-of-type(2)*/
+/* 21> using the pseudo element convert the first letter of te h1 tag to green h1::first-letter*/
+/* 22> using the pseudo element make the last para to blue .myid>p::first-line:blue */
+/* 23>using the selection pseudo element make the backgroundcolor to yellow p::selection*/
+/* 24> make the background color of the h3 tag to antique white using the important tag */
+h3{
+    background-color: antiquewhite !important;
+}
+ *{
+    font-family:sans-serif;
+   }
+h3{
+    color: purple;
+}
+h1,h3{
+    color: rgb(185, 43, 39);
+} 
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: rgb(185, 43, 39);
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+p a{
+    color: purple;
+    background-color: green;
+}
+nav ul li a{
+    color: hotpink;
+}
+p + h3{
+    text-decoration:underline;
+}
+.upvote + button{
+    background-color: cornflowerblue;
+    color: blue;
+}
+div > input{
+    background-color:darksalmon;
+}
+input[type="text"]{
+    color: greenyellow;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color:ghostwhite;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+h3:hover{
+    text-decoration:none;
+}
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2){
+    background-color: coral;
+}
+h1::first-letter{
+    color: green;
+}
+.myid>p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: blanchedalmond;
+}
+/* *{
+    font-family: sans-serif;
+}
+h1,h3{
+    color: rgb(185, 43, 39); ;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    color: white;
+    background-color: rgb(185, 43, 39);;
+}
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+.post a{
+    background-color: yellow;
+    color: purple;
+}
+nav ul li a{
+    color: hotpink;
+}
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    color: darkblue;    
+    background-color: aliceblue;
+
+}
+div>input{
+    background-color: darksalmon;
+}
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color: hotpink;
+}
+div p:active{
+    color: green;
+    font-weight: bold;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2){
+   background-color: antiquewhite;
+} */

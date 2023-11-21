@@ -1,0 +1,16 @@
+/* 1> by selecting te parent child element or only the div make the background to yellow */
+/* 3> make the form background color to red using the parent child relation ship and connect it*/
+/* 4> by default the input tags dosenot inherit the colors by using input{ background-color:inherit} use them give them the same color as the div element have or yellow color*/
+/* 3>when we hover over the button make the background color to red */
+div{
+    background-color: yellow;
+}
+/* form{
+    background-color: red;
+} */
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}

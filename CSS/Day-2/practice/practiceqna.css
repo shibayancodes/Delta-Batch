@@ -1,0 +1,26 @@
+*{
+    font-family: Courier New;
+}
+h1{
+    color: #1b74e4;
+}
+.search{
+    background-color: black;
+    color: white;
+}
+.userbtn{
+    background-color: aqua;
+    color: black;
+} 
+/* 1st way */
+/* #myid p{
+    color: green;
+} */
+/* second way */
+/* #myid>p{
+    color: green;
+} */
+/* third way */
+.testpara{
+    color: green;
+}
