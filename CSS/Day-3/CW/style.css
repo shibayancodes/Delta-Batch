@@ -1,0 +1,21 @@
+/* 1> change the div of the height to 200px */
+/* 2>give a width of 500px */
+/* 3> to check total height and width of div give them a bakcground color of pink */
+/* 4> swt the border width to 5px */
+/* 5>set the border style to solid */
+/* 6>set the border color to black */
+/* 7> give the h1 tag a border-width:2px; */
+/* 8> give the h1 tag a border-style:dashed; */
+/* 9> give the h1 tag a border color of the purple */
+
+/* 11> give the upper part of the border to blue and make it dashed 5px */
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border: 5px solid yellow;
+    border-top:dashed blue 5px;
+}
+h1{
+    border: 2px dashed green;
+}

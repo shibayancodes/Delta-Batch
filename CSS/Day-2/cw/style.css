@@ -22,7 +22,7 @@
 /* 22> using the pseudo element make the last para to blue .myid>p::first-line:blue */
 /* 23>using the selection pseudo element make the backgroundcolor to yellow p::selection*/
 /* 24> make the background color of the h3 tag to antique white using the important tag */
-h3{
+/* h3{
     background-color: antiquewhite !important;
 }
  *{
@@ -105,38 +105,40 @@ h1::first-letter{
 }
 p::selection{
     background-color: blanchedalmond;
+} */
+h1{
+    color: green !important;
 }
-/* *{
+*{
     font-family: sans-serif;
 }
 h1,h3{
-    color: rgb(185, 43, 39); ;
+    color: rgb(185, 43, 39);;
 }
 #login{
     background-color: white;
 }
 #signup{
+    background-color: rgb(185, 43, 39);
     color: white;
-    background-color: rgb(185, 43, 39);;
 }
 .upvote{
     background-color: green;
     color: aliceblue;
 }
 .post a{
-    background-color: yellow;
     color: purple;
+    background-color: yellow;
 }
 nav ul li a{
     color: hotpink;
 }
-p + h3{
+.post+h3{
     text-decoration: underline;
 }
-.upvote + button{
-    color: darkblue;    
-    background-color: aliceblue;
-
+.upvote +button{
+    color: darkblue;
+    background-color: cornflowerblue;
 }
 div>input{
     background-color: darksalmon;
@@ -157,17 +159,26 @@ button:hover{
 h3:hover{
     text-decoration: none;
 }
-button:active{
+ button:active{
     background-color: hotpink;
 }
-div p:active{
-    color: green;
+div>p:active{
+    color:green;
     font-weight: bold;
 }
-input[type="radio"]:checked + label{
-    color: red;
+input[type="radio"]:checked+label{
+    color:red;
     font-weight: bold;
 }
 div:nth-of-type(2){
-   background-color: antiquewhite;
-} */
+    background-color: rgba(137, 59, 31, 0.268);
+}
+h1::first-letter{
+    color: black;
+}
+.myid>p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: aquamarine;
+}
