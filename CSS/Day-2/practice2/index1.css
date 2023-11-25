@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(185, 43, 39);
+}
+h1::first-letter{
+    color: black;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color:rgb(185, 43, 39) ;
+    color: white;
+}
+input.name{
+  color: red;
+}
+input.password{
+    color: green;
+}
+input{
+    background-color: red;
+}
+nav ul li a{
+    color: hotpink;
+}
+.post:hover{
+    color:green;
+    font-weight: bold;
+}
+.follow{
+    color: purple;
+    background-color: yellow;
+}
+h3{
+    color: rgb(185, 43, 39) ;
+}
+.upvote{
+    background-color: green;
+    color: white;
+}
+.upvote + button{
+    background-color: aqua;
+}
+input[type="radio"]:checked+label{
+    color: red;
+}
+input[type="radio"]:unchecked+label{
+    color: green;
+}
